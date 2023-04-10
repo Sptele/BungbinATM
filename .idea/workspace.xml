@@ -4,31 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3dbd5034-7cf5-49cb-8d2e-b09c12fc314a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Commands/ClientCmd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Commands/Debt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Commands/Info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Commands/Ping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Entities/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Entities/DebtItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Entities/DebtList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main/Launcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ClientCmdTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DebtListTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="3dbd5034-7cf5-49cb-8d2e-b09c12fc314a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

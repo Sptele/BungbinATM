@@ -21,7 +21,7 @@ public class ClientCmdTest {
 	@BeforeAll
 	static void setUp() {
 		jda = JDABuilder
-				.createDefault("MTA5NDAzOTMxODk5NTE1MzAwOA.GvzcI3.aB5l0CIRAAAwov_XRPMOMgQOF6Rv4CNKUxjZo8")
+				.createDefault("NEW TOKEN REQUIRED")
 				.enableIntents(GatewayIntent.GUILD_MEMBERS, GatewayIntent.GUILD_PRESENCES)
 				.build();
 

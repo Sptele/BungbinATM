@@ -15,8 +15,6 @@ import net.dv8tion.jda.api.requests.GatewayIntent;
 import java.util.ArrayList;
 
 public class Launcher {
-	//MTA5NDAzOTMxODk5NTE1MzAwOA.GvzcI3.aB5l0CIRAAAwov_XRPMOMgQOF6Rv4CNKUxjZo8
-
 	public static JDA jda;
 	public static ArrayList<Client> debtors = new ArrayList<>();
 
@@ -33,7 +31,7 @@ public class Launcher {
 					.addSlashCommand(new ClientCmd());
 
 			jda = JDABuilder
-					.createDefault("MTA5NDAzOTMxODk5NTE1MzAwOA.GvzcI3.aB5l0CIRAAAwov_XRPMOMgQOF6Rv4CNKUxjZo8")
+					.createDefault("NEW TOKEN REQUIRED")
 					.enableIntents(GatewayIntent.GUILD_MEMBERS, GatewayIntent.GUILD_PRESENCES)
 					.addEventListeners(cmds.build())
 					.build();
