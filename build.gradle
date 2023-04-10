@@ -1,0 +1,32 @@
+plugins {
+    id 'java'
+}
+
+group 'dev.sptele'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+
+    // For JDA-Chewtils
+    maven { url "https://m2.chew.pro/snapshots" }
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+
+    // https://mvnrepository.com/artifact/net.dv8tion/JDA
+    implementation 'net.dv8tion:JDA:5.0.0-beta.6'
+
+    // JDA Chewtils (Slash Commands)
+    // I was debating building my own slash command structure but im too lazy to learn that lol
+    implementation 'pw.chew:jda-chewtils:2.0-SNAPSHOT'
+
+    // https://mvnrepository.com/artifact/org.slf4j/slf4j-api
+    implementation 'org.slf4j:slf4j-api:2.0.7'
+}
+
+test {
+    useJUnitPlatform()
+}
